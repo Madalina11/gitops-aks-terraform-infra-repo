@@ -3,6 +3,7 @@
 provider "azurerm" {
   features {}
   skip_provider_registration = true
+  subscription_id = "2857c5c2-9ed8-4080-9013-7da161cc27d3"
 }
 
 resource "azurerm_resource_group" "aks_rg" {
